@@ -22,6 +22,8 @@ switch (number)
    break;
    case 7: Console.WriteLine ("Воскресение");
    break;
+   default: System.Console.WriteLine(number + " дня недели нет!");
+   break;
 }
 
 if(number == 6 || number == 7)
