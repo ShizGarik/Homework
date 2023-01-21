@@ -1,18 +1,18 @@
-﻿System.Console.WriteLine("Программа нахождения максимального числа и наименьшего");
+﻿Console.WriteLine("Программа нахождения максимального числа и наименьшего");
 
-System.Console.Write("Введите первое число: ");
-int a = System.Convert.ToInt32( System.Console.ReadLine());
+Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
 
-System.Console.Write("Введите второе число: ");
-int b = System.Convert.ToInt32(System.Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
 if(a > b)
 {
-    System.Console.WriteLine($"max {a} min {b}");
+    Console.WriteLine($"max {a} min {b}");
 }else if (a == b)
 {
-   System.Console.WriteLine($"Число {a} и число {b} равны");
+    Console.WriteLine($"Число {a} и число {b} равны");
 }else
 {
-    System.Console.WriteLine($"max {b} min {a}");
+    Console.WriteLine($"max {b} min {a}");
 }
